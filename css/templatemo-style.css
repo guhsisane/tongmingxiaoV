@@ -697,7 +697,7 @@ ul
 /* start contact */
 #contact
   {
-    background: #404040 url('../images/contact-bg.jpg') no-repeat;
+    background: #404040 ;
     background-size: cover;
     background-attachment: fixed;
     color: #FFFFFF;
@@ -743,22 +743,7 @@ ul
   {
     height: 120px;
   }
-#contact input[type="submit"]
-  {
-    background: #66AF33;
-    border: none;
-    color: #FFFFFF;
-    -webkit-transition: all 0.4s ease-in-out;
-            transition: all 0.4s ease-in-out;
-    margin: 10px 0 40px 0;
-  }
-#contact input[type="submit"]:focus,
-#contact input[type="submit"]:hover
-  {
-    background: #FFFFFF;
-    border-color: transparent;
-    color: #66AF33;
-  }
+
 #map-canvas
   {
     border: none;
@@ -829,7 +814,16 @@ ul
             transition: all 0.4s ease-in-out;
   }
 }
+
+.vid_warp video{
+	text-align:center;
+	margin:0 auto;
+	float:left;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	position:relative;
+	}
+
 /* end 360 media quires */
-.video{
-	margin:auto;
-	padding:inherit;}
